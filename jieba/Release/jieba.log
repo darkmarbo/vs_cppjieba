@@ -1,0 +1,27 @@
+﻿生成启动时间为 2017/6/2 星期五 下午 3:23:43。
+     1>项目“D:\bdy\项目-源码\TTS\g_cppjieba-vs\jieba\jieba.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\bdy\项目-源码\TTS\g_cppjieba-vs\jieba\include" /I"D:\bdy\项目-源码\TTS\g_cppjieba-vs\jieba\deps" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test\demo.cpp
+         demo.cpp
+     1>test\demo.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\bdy\项目-源码\TTS\g_cppjieba-vs\jieba\deps\limonp/Logging.hpp(46): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>D:\bdy\项目-源码\TTS\g_cppjieba-vs\jieba\deps\limonp/StringUtil.hpp(35): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(337) : 参见“vsnprintf”的声明
+     1>D:\bdy\项目-源码\TTS\g_cppjieba-vs\jieba\deps\limonp/StringUtil.hpp(83): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>D:\bdy\项目-源码\TTS\g_cppjieba-vs\jieba\deps\limonp/StringUtil.hpp(353): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>test\demo.cpp(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>test\demo.cpp(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\bdy\项目-源码\TTS\g_cppjieba-vs\Release\jieba.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\bdy\项目-源码\TTS\g_cppjieba-vs\Release\jieba.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\bdy\项目-源码\TTS\g_cppjieba-vs\Release\jieba.lib" /MACHINE:X86 /SAFESEH Release\demo.obj
+         正在生成代码
+         已完成代码的生成
+         jieba.vcxproj -> D:\bdy\项目-源码\TTS\g_cppjieba-vs\Release\jieba.exe
+     1>已完成生成项目“D:\bdy\项目-源码\TTS\g_cppjieba-vs\jieba\jieba.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.84
